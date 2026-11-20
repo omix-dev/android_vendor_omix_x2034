@@ -2403,7 +2403,6 @@ cc_prebuilt_library_shared {
     stem: "audio.primary.mediatek",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/audio.primary.mediatek.so"] } },
     relative_install_path: "hw",
-    symlinks: ["audio.primary.mt6835.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -2428,7 +2427,6 @@ cc_prebuilt_library_shared {
     stem: "audio.r_submix.mediatek",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/audio.r_submix.mediatek.so"] } },
     relative_install_path: "hw",
-    symlinks: ["audio.r_submix.mt6835.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -2525,7 +2523,6 @@ cc_prebuilt_library_shared {
     stem: "libMcGatekeeper",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/libMcGatekeeper.so"] } },
     relative_install_path: "hw",
-    symlinks: ["gatekeeper.trustonic.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -2538,7 +2535,6 @@ cc_prebuilt_library_shared {
     stem: "libSoftGatekeeper",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/libSoftGatekeeper.so"] } },
     relative_install_path: "hw",
-    symlinks: ["gatekeeper.default.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -10677,7 +10673,6 @@ cc_prebuilt_library_shared {
     stem: "audio.primary.mediatek",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/audio.primary.mediatek.so"] } },
     relative_install_path: "hw",
-    symlinks: ["audio.primary.mt6835.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -10702,7 +10697,6 @@ cc_prebuilt_library_shared {
     stem: "audio.r_submix.mediatek",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/audio.r_submix.mediatek.so"] } },
     relative_install_path: "hw",
-    symlinks: ["audio.r_submix.mt6835.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -10799,7 +10793,6 @@ cc_prebuilt_library_shared {
     stem: "libMcGatekeeper",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/libMcGatekeeper.so"] } },
     relative_install_path: "hw",
-    symlinks: ["gatekeeper.trustonic.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -10812,7 +10805,6 @@ cc_prebuilt_library_shared {
     stem: "libSoftGatekeeper",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/libSoftGatekeeper.so"] } },
     relative_install_path: "hw",
-    symlinks: ["gatekeeper.default.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -10885,7 +10877,6 @@ cc_prebuilt_library_shared {
     stem: "sensors.mediatek.V2.0",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/sensors.mediatek.V2.0.so"] } },
     relative_install_path: "hw",
-    symlinks: ["sensors.mt6835.so"],
 }
 
 cc_prebuilt_library_shared {
@@ -20283,3 +20274,67 @@ cc_prebuilt_library_shared {
     stem: "vendor.trustonic.tee@1.1",
     target: { android: { srcs: ["proprietary/vendor/lib64/vendor.trustonic.tee@1.1.so"] } },
 }
+
+install_symlink {
+    name: "x2034_vendor_symlink_audio_primary_mt6835_32",
+    vendor: true,
+    installed_location: "lib/hw/audio.primary.mt6835.so",
+    symlink_target: "audio.primary.mediatek.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_audio_primary_mt6835_64",
+    vendor: true,
+    installed_location: "lib64/hw/audio.primary.mt6835.so",
+    symlink_target: "audio.primary.mediatek.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_audio_r_submix_mt6835_32",
+    vendor: true,
+    installed_location: "lib/hw/audio.r_submix.mt6835.so",
+    symlink_target: "audio.r_submix.mediatek.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_audio_r_submix_mt6835_64",
+    vendor: true,
+    installed_location: "lib64/hw/audio.r_submix.mt6835.so",
+    symlink_target: "audio.r_submix.mediatek.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_gatekeeper_trustonic_32",
+    vendor: true,
+    installed_location: "lib/hw/gatekeeper.trustonic.so",
+    symlink_target: "libMcGatekeeper.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_gatekeeper_trustonic_64",
+    vendor: true,
+    installed_location: "lib64/hw/gatekeeper.trustonic.so",
+    symlink_target: "libMcGatekeeper.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_gatekeeper_default_32",
+    vendor: true,
+    installed_location: "lib/hw/gatekeeper.default.so",
+    symlink_target: "libSoftGatekeeper.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_gatekeeper_default_64",
+    vendor: true,
+    installed_location: "lib64/hw/gatekeeper.default.so",
+    symlink_target: "libSoftGatekeeper.so",
+}
+
+install_symlink {
+    name: "x2034_vendor_symlink_sensors_mt6835_64",
+    vendor: true,
+    installed_location: "lib64/hw/sensors.mt6835.so",
+    symlink_target: "sensors.mediatek.V2.0.so",
+}
+

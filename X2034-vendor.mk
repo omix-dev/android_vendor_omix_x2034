@@ -1,5 +1,4 @@
 # Automatically generated for OMIX X2034 (MT6835)
-LOCAL_PATH := $(call my-dir)
 PRODUCT_SOONG_NAMESPACES += vendor/omix/X2034
 
 PRODUCT_PACKAGES += \
@@ -3508,3 +3507,78 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libprizeem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/HorCali/lib/arm64/libprizeem_sensor_jni.so
 
 $(call inherit-product, vendor/omix/X2034/vendor_properties.mk)
+
+# Symlink aliases for prebuilt shared libraries
+PRODUCT_PACKAGES += \
+    x2034_vendor_symlink_audio_primary_mt6835_32 \
+    x2034_vendor_symlink_audio_primary_mt6835_64 \
+    x2034_vendor_symlink_audio_r_submix_mt6835_32 \
+    x2034_vendor_symlink_audio_r_submix_mt6835_64 \
+    x2034_vendor_symlink_gatekeeper_trustonic_32 \
+    x2034_vendor_symlink_gatekeeper_trustonic_64 \
+    x2034_vendor_symlink_gatekeeper_default_32 \
+    x2034_vendor_symlink_gatekeeper_default_64 \
+    x2034_vendor_symlink_sensors_mt6835_64
+
+# Exclude vendor blobs that duplicate AOSP-built modules
+PRODUCT_PACKAGES := $(filter-out \
+    x2034_vendor_bin_awk_64 \
+    x2034_vendor_bin_boringssl_self_test64_64 \
+    x2034_vendor_bin_dumpsys_64 \
+    x2034_vendor_bin_logwrapper_64 \
+    x2034_vendor_bin_sh_64 \
+    x2034_vendor_bin_toolbox_64 \
+    x2034_vendor_bin_toybox_vendor_64 \
+    x2034_vendor_lib64_android_hardware_radio_1_0_64 \
+    x2034_vendor_lib64_android_hardware_radio_1_1_64 \
+    x2034_vendor_lib64_hw_audio_primary_default_64 \
+    x2034_vendor_lib64_hw_gralloc_default_64 \
+    x2034_vendor_lib64_hw_local_time_default_64 \
+    x2034_vendor_lib64_hw_power_default_64 \
+    x2034_vendor_lib64_hw_vibrator_default_64 \
+    x2034_vendor_lib64_libbinderdebug_64 \
+    x2034_vendor_lib64_libeffects_64 \
+    x2034_vendor_lib64_libeffectsconfig_64 \
+    x2034_vendor_lib64_libreference_ril_64 \
+    x2034_vendor_lib64_libril_64 \
+    x2034_vendor_lib64_librilutils_64 \
+    x2034_vendor_lib64_mediacas_libclearkeycasplugin_64 \
+    x2034_vendor_lib64_mediadrm_libdrmclearkeyplugin_64 \
+    x2034_vendor_lib64_soundfx_libaudiopreprocessing_64 \
+    x2034_vendor_lib64_soundfx_libbundlewrapper_64 \
+    x2034_vendor_lib64_soundfx_libdownmix_64 \
+    x2034_vendor_lib64_soundfx_libdynproc_64 \
+    x2034_vendor_lib64_soundfx_libeffectproxy_64 \
+    x2034_vendor_lib64_soundfx_libhapticgenerator_64 \
+    x2034_vendor_lib64_soundfx_libldnhncr_64 \
+    x2034_vendor_lib64_soundfx_libreverbwrapper_64 \
+    x2034_vendor_lib64_soundfx_libvisualizer_64 \
+    x2034_vendor_lib_android_hardware_cas_1_0_32 \
+    x2034_vendor_lib_android_hardware_cas_1_1_32 \
+    x2034_vendor_lib_android_hardware_cas_1_2_32 \
+    x2034_vendor_lib_android_hardware_cas_native_1_0_32 \
+    x2034_vendor_lib_android_hardware_radio_1_0_32 \
+    x2034_vendor_lib_android_hardware_radio_1_1_32 \
+    x2034_vendor_lib_hw_audio_primary_default_32 \
+    x2034_vendor_lib_hw_gralloc_default_32 \
+    x2034_vendor_lib_hw_local_time_default_32 \
+    x2034_vendor_lib_hw_power_default_32 \
+    x2034_vendor_lib_hw_vibrator_default_32 \
+    x2034_vendor_lib_libavservices_minijail_32 \
+    x2034_vendor_lib_libeffects_32 \
+    x2034_vendor_lib_libeffectsconfig_32 \
+    x2034_vendor_lib_libreference_ril_32 \
+    x2034_vendor_lib_libril_32 \
+    x2034_vendor_lib_librilutils_32 \
+    x2034_vendor_lib_mediacas_libclearkeycasplugin_32 \
+    x2034_vendor_lib_mediadrm_libdrmclearkeyplugin_32 \
+    x2034_vendor_lib_soundfx_libaudiopreprocessing_32 \
+    x2034_vendor_lib_soundfx_libbundlewrapper_32 \
+    x2034_vendor_lib_soundfx_libdownmix_32 \
+    x2034_vendor_lib_soundfx_libdynproc_32 \
+    x2034_vendor_lib_soundfx_libeffectproxy_32 \
+    x2034_vendor_lib_soundfx_libhapticgenerator_32 \
+    x2034_vendor_lib_soundfx_libldnhncr_32 \
+    x2034_vendor_lib_soundfx_libreverbwrapper_32 \
+    x2034_vendor_lib_soundfx_libvisualizer_32, \
+    $(PRODUCT_PACKAGES))
