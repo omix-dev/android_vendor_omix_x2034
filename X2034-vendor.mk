@@ -1858,15 +1858,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/5020170115e016302017012521300000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/5020170115e016302017012521300000.tlbin \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/abcd270ea5c44c58bcd3384a2fa2539e.tabin \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/e97c270ea5c44c58bcd3384a2fa2539e.tabin \
-    $(LOCAL_PATH)/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
     $(LOCAL_PATH)/proprietary/vendor/bin/ccci_fsd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_fsd \
     $(LOCAL_PATH)/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     $(LOCAL_PATH)/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     $(LOCAL_PATH)/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     $(LOCAL_PATH)/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
-    $(LOCAL_PATH)/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service-lazy:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service-lazy \
     $(LOCAL_PATH)/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
-    $(LOCAL_PATH)/proprietary/vendor/bin/hw/android.hardware.media.omx@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.omx@1.0-service \
     $(LOCAL_PATH)/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/BSTAISCENE:$(TARGET_COPY_OUT_VENDOR)/etc/BSTAISCENE \
@@ -1920,14 +1917,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
-    $(LOCAL_PATH)/proprietary/vendor/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_dirs \
-    $(LOCAL_PATH)/proprietary/vendor/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR)/etc/fs_config_files \
     $(LOCAL_PATH)/proprietary/vendor/etc/fstab.emmc:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.emmc \
     $(LOCAL_PATH)/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     $(LOCAL_PATH)/proprietary/vendor/etc/fstab.mt6835:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6835 \
     $(LOCAL_PATH)/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     $(LOCAL_PATH)/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
-    $(LOCAL_PATH)/proprietary/vendor/etc/group:$(TARGET_COPY_OUT_VENDOR)/etc/group \
     $(LOCAL_PATH)/proprietary/vendor/etc/hdr.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr.cfg \
     $(LOCAL_PATH)/proprietary/vendor/etc/init.insmod.mt6835.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6835.cfg \
     $(LOCAL_PATH)/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
@@ -1940,14 +1934,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
-    $(LOCAL_PATH)/proprietary/vendor/etc/mkshrc:$(TARGET_COPY_OUT_VENDOR)/etc/mkshrc \
     $(LOCAL_PATH)/proprietary/vendor/etc/monodepthbokeh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/monodepthbokeh.cfg \
     $(LOCAL_PATH)/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     $(LOCAL_PATH)/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/mtk_vext_info:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_vext_info \
     $(LOCAL_PATH)/proprietary/vendor/etc/nnapi_powerhal.json:$(TARGET_COPY_OUT_VENDOR)/etc/nnapi_powerhal.json \
     $(LOCAL_PATH)/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
-    $(LOCAL_PATH)/proprietary/vendor/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/etc/passwd \
     $(LOCAL_PATH)/proprietary/vendor/etc/power_app_cfg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/power_app_cfg.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/powercontable.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powercontable.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/powerscntbl.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerscntbl.xml \
@@ -2117,28 +2109,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/aee_aedv64_v2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64_v2.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.cas@1.2-service-lazy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service-lazy.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.drm-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.clearkey.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.drm-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm-service.widevine.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.2-service.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.3-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.3-service.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.4-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.graphics.composer@3.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@3.1-service.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.health-service.example.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health-service.example.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek-64b.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.security.keymint@2.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@2.0-service.trustonic.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.sensors-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors-service-multihal.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.thermal@2.0-service.mtk.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@2.0-service.mtk.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.usb-aidl-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb-aidl-service.mediatek.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/android.hardware.usb.gadget-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb.gadget-service.mediatek.rc \
@@ -2147,7 +2127,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/atcid.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atcid.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/audiocmdservice_atci.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/audiocmdservice_atci.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
@@ -2204,7 +2183,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/vibrator-mtk-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator-mtk-default.rc \
-    $(LOCAL_PATH)/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/wifimacaddr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifimacaddr.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
@@ -2991,15 +2969,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/md/plmn/TS25/7/48.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/48.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/md/plmn/TS25/7/50.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/7/50.txt \
     $(LOCAL_PATH)/proprietary/vendor/etc/md/plmn/TS25/9/01.txt:$(TARGET_COPY_OUT_VENDOR)/etc/md/plmn/TS25/9/01.txt \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth_le.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.faketouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.faketouch.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.location.gps.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.microphone.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.microphone.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
@@ -3008,39 +2981,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.se.omapi.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.se.omapi.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.accelerometer.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.compass.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.compass.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.gyroscope.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.light.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.light.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.proximity.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepcounter.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.stepdetector.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.cdma.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.telephony.ims.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.distinct.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.touchscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.usb.accessory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.accessory.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.usb.host.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.usb.host.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.compute.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.level.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.vulkan.version.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.wifi.direct.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.direct.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.device_id_attestation.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.prebuilt.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.ipsec_tunnels.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.midi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.midi.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.opengles.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.opengles.deqp.level.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.verified_boot.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/android.software.vulkan.deqp.level.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/permissions/handheld_core_hardware.prebuilt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.prebuilt.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-extended-seccomp-policy \
     $(LOCAL_PATH)/proprietary/vendor/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/android.hardware.media.c2@1.2-mediatek-seccomp-policy \
     $(LOCAL_PATH)/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
@@ -3190,20 +3148,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     $(LOCAL_PATH)/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     $(LOCAL_PATH)/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/plat_pub_versioned.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_pub_versioned.cil \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/plat_sepolicy_vers.txt:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/plat_sepolicy_vers.txt \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/precompiled_sepolicy:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/selinux_denial_metadata:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/selinux_denial_metadata \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_file_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_file_contexts \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_hwservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_hwservice_contexts \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_mac_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_mac_permissions.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_property_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_property_contexts \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_seapp_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_seapp_contexts \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_sepolicy.cil:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_sepolicy.cil \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vendor_service_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vendor_service_contexts \
-    $(LOCAL_PATH)/proprietary/vendor/etc/selinux/vndservice_contexts:$(TARGET_COPY_OUT_VENDOR)/etc/selinux/vndservice_contexts \
     $(LOCAL_PATH)/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     $(LOCAL_PATH)/proprietary/vendor/etc/thermal/disable_skin_control.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_skin_control.conf \
     $(LOCAL_PATH)/proprietary/vendor/etc/thermal/disable_thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/disable_thermal.conf \
@@ -3216,24 +3160,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/thermal/thermal_policy_08.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal/thermal_policy_08.conf \
     $(LOCAL_PATH)/proprietary/vendor/etc/tp_mfnr/IQParam.bin:$(TARGET_COPY_OUT_VENDOR)/etc/tp_mfnr/IQParam.bin \
     $(LOCAL_PATH)/proprietary/vendor/etc/tp_sfnr/IQParam.bin:$(TARGET_COPY_OUT_VENDOR)/etc/tp_sfnr/IQParam.bin \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.boot@1.2.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.drm-service.clearkey.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.health-service.example.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.health-service.example.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.keymint-service.trustonic.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.secureclock-service.trustonic.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.security.sharedsecret-service.trustonic.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.sensors-multihal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.sensors-multihal.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb-aidl-service.mediatek.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.usb.gadget-service.mediatek.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.hostapd.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi.supplicant.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/bluetooth_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/bluetooth_audio.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/gnss-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss-default.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/gnss@2.1-service-mediatek.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/gnss@2.1-service-mediatek.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/vintf/manifest/lbs_hidl_service@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/lbs_hidl_service@1.0.xml \
@@ -3283,9 +3217,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     $(LOCAL_PATH)/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
-    $(LOCAL_PATH)/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm/etc/build.prop \
-    $(LOCAL_PATH)/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_VENDOR)/odm/etc/group \
-    $(LOCAL_PATH)/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_VENDOR)/odm/etc/passwd \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_dsds.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_dsds.xml \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
@@ -3295,8 +3226,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
     $(LOCAL_PATH)/proprietary/vendor/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav \
     $(LOCAL_PATH)/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
-    $(LOCAL_PATH)/proprietary/vendor_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_dirs \
-    $(LOCAL_PATH)/proprietary/vendor_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_files \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/adsp.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/adsp.ko \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/archcounter_timesync.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/archcounter_timesync.ko \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/arm_dsu_pmu.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/arm_dsu_pmu.ko \
@@ -3484,8 +3413,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/wlan_drv_gen4m_6835.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/wlan_drv_gen4m_6835.ko \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/wmt_chrdev_wifi.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/wmt_chrdev_wifi.ko \
     $(LOCAL_PATH)/proprietary/vendor_dlkm/lib/modules/wmt_drv.ko:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/wmt_drv.ko \
-    $(LOCAL_PATH)/proprietary/odm_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_dirs \
-    $(LOCAL_PATH)/proprietary/odm_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_files \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/SensorHub/lib/arm64/libem_sensor_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libprizeem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/app/HorCali/lib/arm64/libprizeem_sensor_jni.so
 
@@ -3503,68 +3430,6 @@ PRODUCT_PACKAGES += \
     x2034_vendor_symlink_gatekeeper_default_64 \
     x2034_vendor_symlink_sensors_mt6835_64
 
-# Exclude vendor blobs that duplicate AOSP-built modules
-PRODUCT_PACKAGES := $(filter-out \
-    x2034_vendor_bin_awk_64 \
-    x2034_vendor_bin_boringssl_self_test64_64 \
-    x2034_vendor_bin_dumpsys_64 \
-    x2034_vendor_bin_logwrapper_64 \
-    x2034_vendor_bin_sh_64 \
-    x2034_vendor_bin_toolbox_64 \
-    x2034_vendor_bin_toybox_vendor_64 \
-    x2034_vendor_lib64_android_hardware_radio_1_0_64 \
-    x2034_vendor_lib64_android_hardware_radio_1_1_64 \
-    x2034_vendor_lib64_hw_audio_primary_default_64 \
-    x2034_vendor_lib64_hw_gralloc_default_64 \
-    x2034_vendor_lib64_hw_local_time_default_64 \
-    x2034_vendor_lib64_hw_power_default_64 \
-    x2034_vendor_lib64_hw_vibrator_default_64 \
-    x2034_vendor_lib64_libbinderdebug_64 \
-    x2034_vendor_lib64_libeffects_64 \
-    x2034_vendor_lib64_libeffectsconfig_64 \
-    x2034_vendor_lib64_libreference_ril_64 \
-    x2034_vendor_lib64_libril_64 \
-    x2034_vendor_lib64_librilutils_64 \
-    x2034_vendor_lib64_mediacas_libclearkeycasplugin_64 \
-    x2034_vendor_lib64_mediadrm_libdrmclearkeyplugin_64 \
-    x2034_vendor_lib64_soundfx_libaudiopreprocessing_64 \
-    x2034_vendor_lib64_soundfx_libbundlewrapper_64 \
-    x2034_vendor_lib64_soundfx_libdownmix_64 \
-    x2034_vendor_lib64_soundfx_libdynproc_64 \
-    x2034_vendor_lib64_soundfx_libeffectproxy_64 \
-    x2034_vendor_lib64_soundfx_libhapticgenerator_64 \
-    x2034_vendor_lib64_soundfx_libldnhncr_64 \
-    x2034_vendor_lib64_soundfx_libreverbwrapper_64 \
-    x2034_vendor_lib64_soundfx_libvisualizer_64 \
-    x2034_vendor_lib_android_hardware_cas_1_0_32 \
-    x2034_vendor_lib_android_hardware_cas_1_1_32 \
-    x2034_vendor_lib_android_hardware_cas_1_2_32 \
-    x2034_vendor_lib_android_hardware_cas_native_1_0_32 \
-    x2034_vendor_lib_android_hardware_radio_1_0_32 \
-    x2034_vendor_lib_android_hardware_radio_1_1_32 \
-    x2034_vendor_lib_hw_audio_primary_default_32 \
-    x2034_vendor_lib_hw_gralloc_default_32 \
-    x2034_vendor_lib_hw_local_time_default_32 \
-    x2034_vendor_lib_hw_power_default_32 \
-    x2034_vendor_lib_hw_vibrator_default_32 \
-    x2034_vendor_lib_libavservices_minijail_32 \
-    x2034_vendor_lib_libeffects_32 \
-    x2034_vendor_lib_libeffectsconfig_32 \
-    x2034_vendor_lib_libreference_ril_32 \
-    x2034_vendor_lib_libril_32 \
-    x2034_vendor_lib_librilutils_32 \
-    x2034_vendor_lib_mediacas_libclearkeycasplugin_32 \
-    x2034_vendor_lib_mediadrm_libdrmclearkeyplugin_32 \
-    x2034_vendor_lib_soundfx_libaudiopreprocessing_32 \
-    x2034_vendor_lib_soundfx_libbundlewrapper_32 \
-    x2034_vendor_lib_soundfx_libdownmix_32 \
-    x2034_vendor_lib_soundfx_libdynproc_32 \
-    x2034_vendor_lib_soundfx_libeffectproxy_32 \
-    x2034_vendor_lib_soundfx_libhapticgenerator_32 \
-    x2034_vendor_lib_soundfx_libldnhncr_32 \
-    x2034_vendor_lib_soundfx_libreverbwrapper_32 \
-    x2034_vendor_lib_soundfx_libvisualizer_32, \
-    $(PRODUCT_PACKAGES))
 
 # Prebuilt APK modules
 PRODUCT_PACKAGES += \
@@ -3585,3 +3450,331 @@ PRODUCT_PACKAGES += \
     x2034_apk_overlay_WifiResMainlineOverlay_WifiResMainlineOverlay_apk \
     x2034_apk_overlay_WifiResOverlay_WifiResOverlay_apk \
     x2034_apk_priv_app_GpuGameDriver_mt6835_GpuGameDriver_mt6835_apk
+
+# Exclude vendor blobs that duplicate AOSP-built modules
+PRODUCT_PACKAGES := $(filter-out \
+    x2034_vendor_bin_awk_64 \
+    x2034_vendor_bin_boringssl_self_test64_64 \
+    x2034_vendor_bin_dmabuf_dump_64 \
+    x2034_vendor_bin_dumpsys_64 \
+    x2034_vendor_bin_hs20_osu_client_64 \
+    x2034_vendor_bin_hw_android_hardware_biometrics_fingerprint_2_64 \
+    x2034_vendor_bin_hw_android_hardware_boot_1_64 \
+    x2034_vendor_bin_hw_android_hardware_drm_service_64 \
+    x2034_vendor_bin_hw_android_hardware_gatekeeper_1_64 \
+    x2034_vendor_bin_hw_android_hardware_graphics_composer_2_64 \
+    x2034_vendor_bin_hw_android_hardware_graphics_composer_2_64_x \
+    x2034_vendor_bin_hw_android_hardware_graphics_composer_2_64_x_x \
+    x2034_vendor_bin_hw_android_hardware_health_service_64 \
+    x2034_vendor_bin_hw_android_hardware_sensors_service_64 \
+    x2034_vendor_bin_hw_wpa_supplicant_64 \
+    x2034_vendor_bin_logwrapper_64 \
+    x2034_vendor_bin_sh_64 \
+    x2034_vendor_bin_toolbox_64 \
+    x2034_vendor_bin_toybox_vendor_64 \
+    x2034_vendor_bin_vndservice_64 \
+    x2034_vendor_bin_vndservicemanager_64 \
+    x2034_vendor_bin_wpa_cli_64 \
+    x2034_vendor_lib64_android_frameworks_sensorservice_1_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_6_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_7_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_7_0_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_7_1_64 \
+    x2034_vendor_lib64_android_hardware_audio_7_1_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_5_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_6_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_6_0_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_7_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_7_0_enums_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_7_0_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_7_1_enums_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_7_1_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_common_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_effect_6_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_effect_6_0_util_64 \
+    x2034_vendor_lib64_android_hardware_audio_effect_7_0_64 \
+    x2034_vendor_lib64_android_hardware_audio_effect_7_0_util_64 \
+    x2034_vendor_lib64_android_hardware_biometrics_fingerprint_2_1_64 \
+    x2034_vendor_lib64_android_hardware_bluetooth_1_0_64 \
+    x2034_vendor_lib64_android_hardware_bluetooth_1_1_64 \
+    x2034_vendor_lib64_android_hardware_bluetooth_audio_2_0_64 \
+    x2034_vendor_lib64_android_hardware_bluetooth_audio_2_1_64 \
+    x2034_vendor_lib64_android_hardware_bluetooth_audio_impl_64 \
+    x2034_vendor_lib64_android_hardware_boot_1_0_64 \
+    x2034_vendor_lib64_android_hardware_boot_1_1_64 \
+    x2034_vendor_lib64_android_hardware_boot_1_2_64 \
+    x2034_vendor_lib64_android_hardware_camera_common_1_0_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_1_0_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_3_2_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_3_3_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_3_4_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_3_5_64 \
+    x2034_vendor_lib64_android_hardware_camera_device_3_6_64 \
+    x2034_vendor_lib64_android_hardware_camera_provider_2_4_64 \
+    x2034_vendor_lib64_android_hardware_camera_provider_2_5_64 \
+    x2034_vendor_lib64_android_hardware_camera_provider_2_6_64 \
+    x2034_vendor_lib64_android_hardware_gatekeeper_1_0_64 \
+    x2034_vendor_lib64_android_hardware_gnss_1_0_64 \
+    x2034_vendor_lib64_android_hardware_gnss_1_1_64 \
+    x2034_vendor_lib64_android_hardware_gnss_2_0_64 \
+    x2034_vendor_lib64_android_hardware_gnss_2_1_64 \
+    x2034_vendor_lib64_android_hardware_gnss_measurement_corrections_1_0_64 \
+    x2034_vendor_lib64_android_hardware_gnss_measurement_corrections_1_1_64 \
+    x2034_vendor_lib64_android_hardware_gnss_visibility_control_1_0_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_1_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_1_resources_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_2_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_2_resources_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_3_64 \
+    x2034_vendor_lib64_android_hardware_graphics_composer_2_4_64 \
+    x2034_vendor_lib64_android_hardware_light_2_0_64 \
+    x2034_vendor_lib64_android_hardware_light_V1_ndk_64 \
+    x2034_vendor_lib64_android_hardware_media_c2_1_0_64 \
+    x2034_vendor_lib64_android_hardware_media_c2_1_1_64 \
+    x2034_vendor_lib64_android_hardware_media_c2_1_2_64 \
+    x2034_vendor_lib64_android_hardware_nfc_1_0_64 \
+    x2034_vendor_lib64_android_hardware_nfc_1_1_64 \
+    x2034_vendor_lib64_android_hardware_nfc_1_2_64 \
+    x2034_vendor_lib64_android_hardware_power_1_0_64 \
+    x2034_vendor_lib64_android_hardware_power_1_1_64 \
+    x2034_vendor_lib64_android_hardware_power_1_2_64 \
+    x2034_vendor_lib64_android_hardware_radio_1_0_64 \
+    x2034_vendor_lib64_android_hardware_radio_1_1_64 \
+    x2034_vendor_lib64_android_hardware_radio_1_2_64 \
+    x2034_vendor_lib64_android_hardware_secure_element_1_0_64 \
+    x2034_vendor_lib64_android_hardware_secure_element_1_1_64 \
+    x2034_vendor_lib64_android_hardware_secure_element_1_2_64 \
+    x2034_vendor_lib64_android_hardware_security_keymint_V1_ndk_64 \
+    x2034_vendor_lib64_android_hardware_sensors_1_0_64 \
+    x2034_vendor_lib64_android_hardware_sensors_2_0_64 \
+    x2034_vendor_lib64_android_hardware_sensors_2_0_ScopedWakelock_64 \
+    x2034_vendor_lib64_android_hardware_sensors_2_1_64 \
+    x2034_vendor_lib64_android_hardware_soundtrigger_2_1_64 \
+    x2034_vendor_lib64_android_hardware_soundtrigger_2_2_64 \
+    x2034_vendor_lib64_android_hardware_soundtrigger_2_3_64 \
+    x2034_vendor_lib64_android_hardware_tetheroffload_config_1_0_64 \
+    x2034_vendor_lib64_android_hardware_tetheroffload_control_1_0_64 \
+    x2034_vendor_lib64_android_hardware_tetheroffload_control_1_1_64 \
+    x2034_vendor_lib64_android_hardware_thermal_1_0_64 \
+    x2034_vendor_lib64_android_hardware_thermal_2_0_64 \
+    x2034_vendor_lib64_android_hardware_usb_gadget_1_0_64 \
+    x2034_vendor_lib64_android_hardware_usb_gadget_1_1_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_0_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_1_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_2_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_3_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_4_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_5_64 \
+    x2034_vendor_lib64_android_hardware_wifi_1_6_64 \
+    x2034_vendor_lib64_android_hidl_allocator_1_0_64 \
+    x2034_vendor_lib64_android_media_audio_common_types_V1_cpp_64 \
+    x2034_vendor_lib64_android_system_keystore2_V1_ndk_64 \
+    x2034_vendor_lib64_android_system_wifi_keystore_1_0_64 \
+    x2034_vendor_lib64_audioclient_types_aidl_cpp_64 \
+    x2034_vendor_lib64_framework_permission_aidl_cpp_64 \
+    x2034_vendor_lib64_hw_android_hardware_audio_effect_6_0_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_audio_effect_7_0_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_bluetooth_audio_2_0_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_bluetooth_audio_2_1_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_gatekeeper_1_0_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_renderscript_1_0_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_soundtrigger_2_3_impl_64 \
+    x2034_vendor_lib64_hw_android_hardware_thermal_1_0_impl_64 \
+    x2034_vendor_lib64_hw_audio_bluetooth_default_64 \
+    x2034_vendor_lib64_hw_audio_policy_stub_64 \
+    x2034_vendor_lib64_hw_audio_primary_default_64 \
+    x2034_vendor_lib64_hw_audio_r_submix_default_64 \
+    x2034_vendor_lib64_hw_audio_usb_default_64 \
+    x2034_vendor_lib64_hw_fingerprint_default_64 \
+    x2034_vendor_lib64_hw_gralloc_default_64 \
+    x2034_vendor_lib64_hw_local_time_default_64 \
+    x2034_vendor_lib64_hw_power_default_64 \
+    x2034_vendor_lib64_hw_sensors_dynamic_sensor_hal_64 \
+    x2034_vendor_lib64_hw_vibrator_default_64 \
+    x2034_vendor_lib64_libalsautils_64 \
+    x2034_vendor_lib64_libaudioclient_aidl_conversion_64 \
+    x2034_vendor_lib64_libaudiofoundation_64 \
+    x2034_vendor_lib64_libavservices_minijail_64 \
+    x2034_vendor_lib64_libbinderdebug_64 \
+    x2034_vendor_lib64_libbluetooth_audio_session_64 \
+    x2034_vendor_lib64_libbluetooth_audio_session_aidl_64 \
+    x2034_vendor_lib64_libchrome_64 \
+    x2034_vendor_lib64_libcodec2_hidl_1_0_64 \
+    x2034_vendor_lib64_libcodec2_hidl_1_1_64 \
+    x2034_vendor_lib64_libcodec2_hidl_1_2_64 \
+    x2034_vendor_lib64_libcodec2_hidl_plugin_64 \
+    x2034_vendor_lib64_libcodec2_soft_common_64 \
+    x2034_vendor_lib64_libcodec2_vndk_64 \
+    x2034_vendor_lib64_libdrm_64 \
+    x2034_vendor_lib64_libeffects_64 \
+    x2034_vendor_lib64_libeffectsconfig_64 \
+    x2034_vendor_lib64_libflatbuffers_cpp_64 \
+    x2034_vendor_lib64_libhidltransport_64 \
+    x2034_vendor_lib64_libhidparser_64 \
+    x2034_vendor_lib64_libhwbinder_64 \
+    x2034_vendor_lib64_libhwc2on1adapter_64 \
+    x2034_vendor_lib64_libhwc2onfbadapter_64 \
+    x2034_vendor_lib64_libkeystore_engine_wifi_hidl_64 \
+    x2034_vendor_lib64_libkeystore_wifi_hidl_64 \
+    x2034_vendor_lib64_libmediautils_vendor_64 \
+    x2034_vendor_lib64_libmemunreachable_64 \
+    x2034_vendor_lib64_libnbaio_mono_64 \
+    x2034_vendor_lib64_libpcap_64 \
+    x2034_vendor_lib64_libprotobuf_cpp_full_3_9_1_64 \
+    x2034_vendor_lib64_libprotobuf_cpp_lite_3_9_1_64 \
+    x2034_vendor_lib64_libreference_ril_64 \
+    x2034_vendor_lib64_libril_64 \
+    x2034_vendor_lib64_librilutils_64 \
+    x2034_vendor_lib64_libruy_64 \
+    x2034_vendor_lib64_libsensorndkbridge_64 \
+    x2034_vendor_lib64_libsfplugin_ccodec_utils_64 \
+    x2034_vendor_lib64_libshmemcompat_64 \
+    x2034_vendor_lib64_libshmemutil_64 \
+    x2034_vendor_lib64_libstagefright_bufferpool_2_0_1_64 \
+    x2034_vendor_lib64_libtextclassifier_hash_64 \
+    x2034_vendor_lib64_libtinycompress_64 \
+    x2034_vendor_lib64_libwifi_hal_64 \
+    x2034_vendor_lib64_libwpa_client_64 \
+    x2034_vendor_lib64_mediacas_libclearkeycasplugin_64 \
+    x2034_vendor_lib64_mediadrm_libdrmclearkeyplugin_64 \
+    x2034_vendor_lib64_mediadrm_libmockdrmcryptoplugin_64 \
+    x2034_vendor_lib64_shared_file_region_aidl_cpp_64 \
+    x2034_vendor_lib64_soundfx_libaudiopreprocessing_64 \
+    x2034_vendor_lib64_soundfx_libbundlewrapper_64 \
+    x2034_vendor_lib64_soundfx_libdownmix_64 \
+    x2034_vendor_lib64_soundfx_libdynproc_64 \
+    x2034_vendor_lib64_soundfx_libeffectproxy_64 \
+    x2034_vendor_lib64_soundfx_libhapticgenerator_64 \
+    x2034_vendor_lib64_soundfx_libldnhncr_64 \
+    x2034_vendor_lib64_soundfx_libreverbwrapper_64 \
+    x2034_vendor_lib64_soundfx_libvisualizer_64 \
+    x2034_vendor_lib_android_frameworks_sensorservice_1_0_32 \
+    x2034_vendor_lib_android_hardware_audio_6_0_32 \
+    x2034_vendor_lib_android_hardware_audio_7_0_32 \
+    x2034_vendor_lib_android_hardware_audio_7_0_util_32 \
+    x2034_vendor_lib_android_hardware_audio_7_1_32 \
+    x2034_vendor_lib_android_hardware_audio_7_1_util_32 \
+    x2034_vendor_lib_android_hardware_audio_common_5_0_32 \
+    x2034_vendor_lib_android_hardware_audio_common_6_0_32 \
+    x2034_vendor_lib_android_hardware_audio_common_6_0_util_32 \
+    x2034_vendor_lib_android_hardware_audio_common_7_0_32 \
+    x2034_vendor_lib_android_hardware_audio_common_7_0_enums_32 \
+    x2034_vendor_lib_android_hardware_audio_common_7_0_util_32 \
+    x2034_vendor_lib_android_hardware_audio_common_7_1_enums_32 \
+    x2034_vendor_lib_android_hardware_audio_common_7_1_util_32 \
+    x2034_vendor_lib_android_hardware_audio_common_util_32 \
+    x2034_vendor_lib_android_hardware_audio_effect_6_0_32 \
+    x2034_vendor_lib_android_hardware_audio_effect_6_0_util_32 \
+    x2034_vendor_lib_android_hardware_audio_effect_7_0_32 \
+    x2034_vendor_lib_android_hardware_audio_effect_7_0_util_32 \
+    x2034_vendor_lib_android_hardware_bluetooth_1_0_32 \
+    x2034_vendor_lib_android_hardware_bluetooth_1_1_32 \
+    x2034_vendor_lib_android_hardware_bluetooth_audio_2_0_32 \
+    x2034_vendor_lib_android_hardware_bluetooth_audio_2_1_32 \
+    x2034_vendor_lib_android_hardware_boot_1_0_32 \
+    x2034_vendor_lib_android_hardware_boot_1_1_32 \
+    x2034_vendor_lib_android_hardware_boot_1_2_32 \
+    x2034_vendor_lib_android_hardware_cas_1_0_32 \
+    x2034_vendor_lib_android_hardware_cas_1_1_32 \
+    x2034_vendor_lib_android_hardware_cas_1_2_32 \
+    x2034_vendor_lib_android_hardware_cas_native_1_0_32 \
+    x2034_vendor_lib_android_hardware_gatekeeper_1_0_32 \
+    x2034_vendor_lib_android_hardware_media_c2_1_0_32 \
+    x2034_vendor_lib_android_hardware_media_c2_1_1_32 \
+    x2034_vendor_lib_android_hardware_media_c2_1_2_32 \
+    x2034_vendor_lib_android_hardware_power_1_0_32 \
+    x2034_vendor_lib_android_hardware_radio_1_0_32 \
+    x2034_vendor_lib_android_hardware_radio_1_1_32 \
+    x2034_vendor_lib_android_hardware_sensors_1_0_32 \
+    x2034_vendor_lib_android_hardware_sensors_2_0_32 \
+    x2034_vendor_lib_android_hardware_sensors_2_0_ScopedWakelock_32 \
+    x2034_vendor_lib_android_hardware_sensors_2_1_32 \
+    x2034_vendor_lib_android_hardware_soundtrigger_2_1_32 \
+    x2034_vendor_lib_android_hardware_soundtrigger_2_2_32 \
+    x2034_vendor_lib_android_hardware_soundtrigger_2_3_32 \
+    x2034_vendor_lib_android_hardware_thermal_1_0_32 \
+    x2034_vendor_lib_android_hardware_thermal_2_0_32 \
+    x2034_vendor_lib_android_hidl_allocator_1_0_32 \
+    x2034_vendor_lib_android_media_audio_common_types_V1_cpp_32 \
+    x2034_vendor_lib_android_system_wifi_keystore_1_0_32 \
+    x2034_vendor_lib_audioclient_types_aidl_cpp_32 \
+    x2034_vendor_lib_framework_permission_aidl_cpp_32 \
+    x2034_vendor_lib_hw_android_hardware_audio_effect_6_0_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_audio_effect_7_0_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_bluetooth_audio_2_0_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_bluetooth_audio_2_1_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_gatekeeper_1_0_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_renderscript_1_0_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_soundtrigger_2_3_impl_32 \
+    x2034_vendor_lib_hw_android_hardware_thermal_1_0_impl_32 \
+    x2034_vendor_lib_hw_audio_bluetooth_default_32 \
+    x2034_vendor_lib_hw_audio_policy_stub_32 \
+    x2034_vendor_lib_hw_audio_primary_default_32 \
+    x2034_vendor_lib_hw_audio_r_submix_default_32 \
+    x2034_vendor_lib_hw_audio_usb_default_32 \
+    x2034_vendor_lib_hw_fingerprint_default_32 \
+    x2034_vendor_lib_hw_gralloc_default_32 \
+    x2034_vendor_lib_hw_local_time_default_32 \
+    x2034_vendor_lib_hw_power_default_32 \
+    x2034_vendor_lib_hw_sensors_dynamic_sensor_hal_32 \
+    x2034_vendor_lib_hw_vibrator_default_32 \
+    x2034_vendor_lib_libalsautils_32 \
+    x2034_vendor_lib_libaudioclient_aidl_conversion_32 \
+    x2034_vendor_lib_libaudiofoundation_32 \
+    x2034_vendor_lib_libavservices_minijail_32 \
+    x2034_vendor_lib_libbluetooth_audio_session_32 \
+    x2034_vendor_lib_libbluetooth_audio_session_aidl_32 \
+    x2034_vendor_lib_libcodec2_hidl_1_0_32 \
+    x2034_vendor_lib_libcodec2_hidl_1_1_32 \
+    x2034_vendor_lib_libcodec2_hidl_1_2_32 \
+    x2034_vendor_lib_libcodec2_hidl_plugin_32 \
+    x2034_vendor_lib_libcodec2_soft_common_32 \
+    x2034_vendor_lib_libcodec2_vndk_32 \
+    x2034_vendor_lib_libdrm_32 \
+    x2034_vendor_lib_libeffects_32 \
+    x2034_vendor_lib_libeffectsconfig_32 \
+    x2034_vendor_lib_libflatbuffers_cpp_32 \
+    x2034_vendor_lib_libhidltransport_32 \
+    x2034_vendor_lib_libhidparser_32 \
+    x2034_vendor_lib_libhwbinder_32 \
+    x2034_vendor_lib_libkeystore_wifi_hidl_32 \
+    x2034_vendor_lib_libmediautils_vendor_32 \
+    x2034_vendor_lib_libmemunreachable_32 \
+    x2034_vendor_lib_libnbaio_mono_32 \
+    x2034_vendor_lib_libopus_32 \
+    x2034_vendor_lib_libpcap_32 \
+    x2034_vendor_lib_libprotobuf_cpp_full_3_9_1_32 \
+    x2034_vendor_lib_libprotobuf_cpp_lite_3_9_1_32 \
+    x2034_vendor_lib_libreference_ril_32 \
+    x2034_vendor_lib_libril_32 \
+    x2034_vendor_lib_librilutils_32 \
+    x2034_vendor_lib_libruy_32 \
+    x2034_vendor_lib_libsensorndkbridge_32 \
+    x2034_vendor_lib_libsfplugin_ccodec_utils_32 \
+    x2034_vendor_lib_libshmemcompat_32 \
+    x2034_vendor_lib_libshmemutil_32 \
+    x2034_vendor_lib_libstagefright_amrnb_common_32 \
+    x2034_vendor_lib_libstagefright_bufferpool_2_0_1_32 \
+    x2034_vendor_lib_libstagefright_enc_common_32 \
+    x2034_vendor_lib_libstagefright_flacdec_32 \
+    x2034_vendor_lib_libstagefright_softomx_32 \
+    x2034_vendor_lib_libstagefright_softomx_plugin_32 \
+    x2034_vendor_lib_libtextclassifier_hash_32 \
+    x2034_vendor_lib_libtinycompress_32 \
+    x2034_vendor_lib_libvorbisidec_32 \
+    x2034_vendor_lib_libvpx_32 \
+    x2034_vendor_lib_libwpa_client_32 \
+    x2034_vendor_lib_mediacas_libclearkeycasplugin_32 \
+    x2034_vendor_lib_mediadrm_libdrmclearkeyplugin_32 \
+    x2034_vendor_lib_mediadrm_libmockdrmcryptoplugin_32 \
+    x2034_vendor_lib_shared_file_region_aidl_cpp_32 \
+    x2034_vendor_lib_soundfx_libaudiopreprocessing_32 \
+    x2034_vendor_lib_soundfx_libbundlewrapper_32 \
+    x2034_vendor_lib_soundfx_libdownmix_32 \
+    x2034_vendor_lib_soundfx_libdynproc_32 \
+    x2034_vendor_lib_soundfx_libeffectproxy_32 \
+    x2034_vendor_lib_soundfx_libhapticgenerator_32 \
+    x2034_vendor_lib_soundfx_libldnhncr_32 \
+    x2034_vendor_lib_soundfx_libreverbwrapper_32 \
+    x2034_vendor_lib_soundfx_libvisualizer_32, \
+    $(PRODUCT_PACKAGES))
