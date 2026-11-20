@@ -1832,15 +1832,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
     $(LOCAL_PATH)/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
-    $(LOCAL_PATH)/proprietary/vendor/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/GoogleTetheringResOverlay/GoogleTetheringResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/HorCali/HorCali.apk:$(TARGET_COPY_OUT_VENDOR)/app/HorCali/HorCali.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/InProcessTetheringResOverlay/InProcessTetheringResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackGoogleGoResOverlay/NetworkStackGoogleGoResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackGoogleResOverlay/NetworkStackGoogleResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackInProcessResOverlay/NetworkStackInProcessResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/NetworkStackResOverlay/NetworkStackResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/NetworkStackResOverlay/NetworkStackResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/SensorHub/SensorHub.apk:$(TARGET_COPY_OUT_VENDOR)/app/SensorHub/SensorHub.apk \
-    $(LOCAL_PATH)/proprietary/vendor/app/TetheringResOverlay/TetheringResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/app/TetheringResOverlay/TetheringResOverlay.apk \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.drbin \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/020f0000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/020f0000000000000000000000000000.tlbin \
     $(LOCAL_PATH)/proprietary/vendor/app/mcRegistry/031c0000000000000000000000000000.drbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/031c0000000000000000000000000000.drbin \
@@ -3299,14 +3290,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_qsqs.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_qsqs.xml \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_ss.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_ss.xml \
     $(LOCAL_PATH)/proprietary/vendor/odm/etc/vintf/manifest_tsts.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest_tsts.xml \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/CellbroadcastGoogleUIResOverlay/CellbroadcastGoogleUIResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/CellbroadcastGoogleUIResOverlay/CellbroadcastGoogleUIResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlay/FrameworkResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/MtkSettingsResOverlay/MtkSettingsResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/SettingsProviderResOverlay/SettingsProviderResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResMainlineOverlay/WifiResMainlineOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/overlay/WifiResOverlay/WifiResOverlay.apk:$(TARGET_COPY_OUT_VENDOR)/overlay/WifiResOverlay/WifiResOverlay.apk \
-    $(LOCAL_PATH)/proprietary/vendor/priv-app/GpuGameDriver.mt6835/GpuGameDriver.mt6835.apk:$(TARGET_COPY_OUT_VENDOR)/priv-app/GpuGameDriver.mt6835/GpuGameDriver.mt6835.apk \
     $(LOCAL_PATH)/proprietary/vendor/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png \
     $(LOCAL_PATH)/proprietary/vendor/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png \
     $(LOCAL_PATH)/proprietary/vendor/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png \
@@ -3582,3 +3565,23 @@ PRODUCT_PACKAGES := $(filter-out \
     x2034_vendor_lib_soundfx_libreverbwrapper_32 \
     x2034_vendor_lib_soundfx_libvisualizer_32, \
     $(PRODUCT_PACKAGES))
+
+# Prebuilt APK modules
+PRODUCT_PACKAGES += \
+    x2034_apk_app_GoogleTetheringResOverlay_GoogleTetheringResOverlay_apk \
+    x2034_apk_app_HorCali_HorCali_apk \
+    x2034_apk_app_InProcessTetheringResOverlay_InProcessTetheringResOverlay_apk \
+    x2034_apk_app_NetworkStackGoogleGoResOverlay_NetworkStackGoogleGoResOverlay_apk \
+    x2034_apk_app_NetworkStackGoogleResOverlay_NetworkStackGoogleResOverlay_apk \
+    x2034_apk_app_NetworkStackInProcessResOverlay_NetworkStackInProcessResOverlay_apk \
+    x2034_apk_app_NetworkStackResOverlay_NetworkStackResOverlay_apk \
+    x2034_apk_app_SensorHub_SensorHub_apk \
+    x2034_apk_app_TetheringResOverlay_TetheringResOverlay_apk \
+    x2034_apk_overlay_CellbroadcastGoogleUIResOverlay_CellbroadcastGoogleUIResOverlay_apk \
+    x2034_apk_overlay_FrameworkResOverlay_FrameworkResOverlay_apk \
+    x2034_apk_overlay_FrameworkResOverlayExt_FrameworkResOverlayExt_apk \
+    x2034_apk_overlay_MtkSettingsResOverlay_MtkSettingsResOverlay_apk \
+    x2034_apk_overlay_SettingsProviderResOverlay_SettingsProviderResOverlay_apk \
+    x2034_apk_overlay_WifiResMainlineOverlay_WifiResMainlineOverlay_apk \
+    x2034_apk_overlay_WifiResOverlay_WifiResOverlay_apk \
+    x2034_apk_priv_app_GpuGameDriver_mt6835_GpuGameDriver_mt6835_apk

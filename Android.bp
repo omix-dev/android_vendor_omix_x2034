@@ -103,17 +103,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "x2034_vendor_bin_awk_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "awk",
-    target: { android: { srcs: ["proprietary/vendor/bin/awk"] } },
-}
-
-cc_prebuilt_binary {
     name: "x2034_vendor_bin_bip_ap_64",
     owner: "omix",
     strip: { none: true },
@@ -122,17 +111,6 @@ cc_prebuilt_binary {
     compile_multilib: "64",
     stem: "bip_ap",
     target: { android: { srcs: ["proprietary/vendor/bin/bip_ap"] } },
-}
-
-cc_prebuilt_binary {
-    name: "x2034_vendor_bin_boringssl_self_test64_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "boringssl_self_test64",
-    target: { android: { srcs: ["proprietary/vendor/bin/boringssl_self_test64"] } },
 }
 
 cc_prebuilt_binary {
@@ -274,17 +252,6 @@ cc_prebuilt_binary {
     stem: "dumpfaultd.mt6835",
     target: { android: { srcs: ["proprietary/vendor/bin/dumpfaultd.mt6835"] } },
     symlinks: ["dumpfaultd"],
-}
-
-cc_prebuilt_binary {
-    name: "x2034_vendor_bin_dumpsys_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "dumpsys",
-    target: { android: { srcs: ["proprietary/vendor/bin/dumpsys"] } },
 }
 
 cc_prebuilt_binary {
@@ -1004,17 +971,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "x2034_vendor_bin_logwrapper_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "logwrapper",
-    target: { android: { srcs: ["proprietary/vendor/bin/logwrapper"] } },
-}
-
-cc_prebuilt_binary {
     name: "x2034_vendor_bin_mcDriverDaemon_64",
     owner: "omix",
     strip: { none: true },
@@ -1224,17 +1180,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "x2034_vendor_bin_sh_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "sh",
-    target: { android: { srcs: ["proprietary/vendor/bin/sh"] } },
-}
-
-cc_prebuilt_binary {
     name: "x2034_vendor_bin_smartpa_nvtest_64",
     owner: "omix",
     strip: { none: true },
@@ -1290,18 +1235,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "x2034_vendor_bin_toolbox_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "toolbox",
-    target: { android: { srcs: ["proprietary/vendor/bin/toolbox"] } },
-    symlinks: ["getevent", "getprop", "modprobe", "setprop", "start", "stop"],
-}
-
-cc_prebuilt_binary {
     name: "x2034_vendor_bin_touch_boost_64",
     owner: "omix",
     strip: { none: true },
@@ -1310,18 +1243,6 @@ cc_prebuilt_binary {
     compile_multilib: "64",
     stem: "touch_boost",
     target: { android: { srcs: ["proprietary/vendor/bin/touch_boost"] } },
-}
-
-cc_prebuilt_binary {
-    name: "x2034_vendor_bin_toybox_vendor_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "toybox_vendor",
-    target: { android: { srcs: ["proprietary/vendor/bin/toybox_vendor"] } },
-    symlinks: ["[", "acpi", "base64", "basename", "blockdev", "cal", "cat", "chattr", "chcon", "chgrp", "chmod", "chown", "chroot", "chrt", "cksum", "clear", "cmp", "comm", "cp", "cpio", "cut", "date", "dd", "devmem", "df", "diff", "dirname", "dmesg", "dos2unix", "du", "echo", "egrep", "env", "expand", "expr", "fallocate", "false", "fgrep", "file", "find", "flock", "fmt", "free", "fsync", "getconf", "getenforce", "grep", "groups", "gunzip", "gzip", "head", "hostname", "hwclock", "i2cdetect", "i2cdump", "i2cget", "i2cset", "iconv", "id", "ifconfig", "inotifyd", "insmod", "install", "ionice", "iorenice", "kill", "killall", "ln", "load_policy", "log", "logname", "losetup", "ls", "lsattr", "lsmod", "lsof", "lspci", "lsusb", "md5sum", "microcom", "mkdir", "mkfifo", "mknod", "mkswap", "mktemp", "modinfo", "more", "mount", "mountpoint", "mv", "nc", "netcat", "netstat", "nice", "nl", "nohup", "nproc", "nsenter", "od", "paste", "patch", "pgrep", "pidof", "pkill", "pmap", "printenv", "printf", "ps", "pwd", "readelf", "readlink", "realpath", "renice", "restorecon", "rm", "rmdir", "rmmod", "rtcwake", "runcon", "sed", "sendevent", "seq", "setenforce", "setsid", "sha1sum", "sha224sum", "sha256sum", "sha384sum", "sha512sum", "sleep", "sort", "split", "stat", "strings", "stty", "swapoff", "swapon", "sync", "sysctl", "tac", "tail", "tar", "taskset", "tee", "test", "time", "timeout", "top", "touch", "tr", "true", "truncate", "tty", "uclampset", "ulimit", "umount", "uname", "uniq", "unix2dos", "unlink", "unshare", "uptime", "usleep", "uudecode", "uuencode", "uuidgen", "vmstat", "watch", "wc", "which", "whoami", "xargs", "xxd", "yes", "zcat"],
 }
 
 cc_prebuilt_binary {
@@ -1743,50 +1664,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_cas_native_1_0_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.cas.native@1.0",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.cas.native@1.0.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_cas_1_0_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.cas@1.0",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.cas@1.0.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_cas_1_1_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.cas@1.1",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.cas@1.1.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_cas_1_2_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.cas@1.2",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.cas@1.2.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_android_hardware_gatekeeper_1_0_32",
     owner: "omix",
     strip: { none: true },
@@ -1839,28 +1716,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "android.hardware.power@1.0",
     target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.power@1.0.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_radio_1_0_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.radio@1.0",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.radio@1.0.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_android_hardware_radio_1_1_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "android.hardware.radio@1.1",
-    target: { android: { srcs: ["proprietary/vendor/lib/android.hardware.radio@1.1.so"] } },
 }
 
 cc_prebuilt_library_shared {
@@ -2382,18 +2237,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_hw_audio_primary_default_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "audio.primary.default",
-    target: { android: { srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_hw_audio_primary_mediatek_32",
     owner: "omix",
     strip: { none: true },
@@ -2502,18 +2345,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_hw_gralloc_default_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "gralloc.default",
-    target: { android: { srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_hw_libMcGatekeeper_32",
     owner: "omix",
     strip: { none: true },
@@ -2538,18 +2369,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_hw_local_time_default_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "local_time.default",
-    target: { android: { srcs: ["proprietary/vendor/lib/hw/local_time.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_hw_mtkflp_default_32",
     owner: "omix",
     strip: { none: true },
@@ -2570,18 +2389,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "mtkgeofence.default",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/mtkgeofence.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_hw_power_default_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "power.default",
-    target: { android: { srcs: ["proprietary/vendor/lib/hw/power.default.so"] } },
     relative_install_path: "hw",
 }
 
@@ -2726,18 +2533,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "vendor.mediatek.hardware.videotelephony@1.0-impl",
     target: { android: { srcs: ["proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_hw_vibrator_default_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "vibrator.default",
-    target: { android: { srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"] } },
     relative_install_path: "hw",
 }
 
@@ -5427,17 +5222,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_libavservices_minijail_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libavservices_minijail",
-    target: { android: { srcs: ["proprietary/vendor/lib/libavservices_minijail.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_libbessound_hd_mtk_vendor_32",
     owner: "omix",
     strip: { none: true },
@@ -6007,28 +5791,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "libdynamiclog",
     target: { android: { srcs: ["proprietary/vendor/lib/libdynamiclog.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_libeffects_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libeffects",
-    target: { android: { srcs: ["proprietary/vendor/lib/libeffects.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_libeffectsconfig_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libeffectsconfig",
-    target: { android: { srcs: ["proprietary/vendor/lib/libeffectsconfig.so"] } },
 }
 
 cc_prebuilt_library_shared {
@@ -7352,17 +7114,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_libreference_ril_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libreference-ril",
-    target: { android: { srcs: ["proprietary/vendor/lib/libreference-ril.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_librgbwlightsensor_32",
     owner: "omix",
     strip: { none: true },
@@ -7371,28 +7122,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "librgbwlightsensor",
     target: { android: { srcs: ["proprietary/vendor/lib/librgbwlightsensor.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_libril_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libril",
-    target: { android: { srcs: ["proprietary/vendor/lib/libril.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_librilutils_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "librilutils",
-    target: { android: { srcs: ["proprietary/vendor/lib/librilutils.so"] } },
 }
 
 cc_prebuilt_library_shared {
@@ -8265,30 +7994,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_mediacas_libclearkeycasplugin_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libclearkeycasplugin",
-    target: { android: { srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"] } },
-    relative_install_path: "mediacas",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_mediadrm_libdrmclearkeyplugin_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libdrmclearkeyplugin",
-    target: { android: { srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"] } },
-    relative_install_path: "mediadrm",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_mediadrm_libmockdrmcryptoplugin_32",
     owner: "omix",
     strip: { none: true },
@@ -8389,18 +8094,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libaudiopreprocessing_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libaudiopreprocessing",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libaudiopreprocessing.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_soundfx_libaudiopreprocessing_mtk_32",
     owner: "omix",
     strip: { none: true },
@@ -8413,18 +8106,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libbundlewrapper_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libbundlewrapper",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib_soundfx_libdlbvol_32",
     owner: "omix",
     strip: { none: true },
@@ -8433,78 +8114,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "libdlbvol",
     target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libdlbvol.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libdownmix_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libdownmix",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libdownmix.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libdynproc_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libdynproc",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libeffectproxy_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libeffectproxy",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libeffectproxy.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libhapticgenerator_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libhapticgenerator",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libhapticgenerator.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libldnhncr_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libldnhncr",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libldnhncr.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libreverbwrapper_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libreverbwrapper",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libreverbwrapper.so"] } },
     relative_install_path: "soundfx",
 }
 
@@ -8541,18 +8150,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "32",
     stem: "libswgamedap",
     target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libswgamedap.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib_soundfx_libvisualizer_32",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "32",
-    stem: "libvisualizer",
-    target: { android: { srcs: ["proprietary/vendor/lib/soundfx/libvisualizer.so"] } },
     relative_install_path: "soundfx",
 }
 
@@ -9866,28 +9463,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_android_hardware_radio_1_0_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "android.hardware.radio@1.0",
-    target: { android: { srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.0.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_android_hardware_radio_1_1_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "android.hardware.radio@1.1",
-    target: { android: { srcs: ["proprietary/vendor/lib64/android.hardware.radio@1.1.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_android_hardware_radio_1_2_64",
     owner: "omix",
     strip: { none: true },
@@ -10652,18 +10227,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_hw_audio_primary_default_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "audio.primary.default",
-    target: { android: { srcs: ["proprietary/vendor/lib64/hw/audio.primary.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_hw_audio_primary_mediatek_64",
     owner: "omix",
     strip: { none: true },
@@ -10760,18 +10323,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_hw_gralloc_default_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "gralloc.default",
-    target: { android: { srcs: ["proprietary/vendor/lib64/hw/gralloc.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_hw_hwcomposer_mtk_common_64",
     owner: "omix",
     strip: { none: true },
@@ -10808,18 +10359,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_hw_local_time_default_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "local_time.default",
-    target: { android: { srcs: ["proprietary/vendor/lib64/hw/local_time.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_hw_mtkflp_default_64",
     owner: "omix",
     strip: { none: true },
@@ -10840,18 +10379,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "mtkgeofence.default",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/mtkgeofence.default.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_hw_power_default_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "power.default",
-    target: { android: { srcs: ["proprietary/vendor/lib64/hw/power.default.so"] } },
     relative_install_path: "hw",
 }
 
@@ -11056,18 +10583,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "vendor.mediatek.hardware.videotelephony@1.0-impl",
     target: { android: { srcs: ["proprietary/vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so"] } },
-    relative_install_path: "hw",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_hw_vibrator_default_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "vibrator.default",
-    target: { android: { srcs: ["proprietary/vendor/lib64/hw/vibrator.default.so"] } },
     relative_install_path: "hw",
 }
 
@@ -14340,17 +13855,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_libbinderdebug_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libbinderdebug",
-    target: { android: { srcs: ["proprietary/vendor/lib64/libbinderdebug.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_libblisrc32_vendor_64",
     owner: "omix",
     strip: { none: true },
@@ -15679,28 +15183,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "libeffecthal.base",
     target: { android: { srcs: ["proprietary/vendor/lib64/libeffecthal.base.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_libeffects_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libeffects",
-    target: { android: { srcs: ["proprietary/vendor/lib64/libeffects.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_libeffectsconfig_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libeffectsconfig",
-    target: { android: { srcs: ["proprietary/vendor/lib64/libeffectsconfig.so"] } },
 }
 
 cc_prebuilt_library_shared {
@@ -18234,17 +17716,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_libreference_ril_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libreference-ril",
-    target: { android: { srcs: ["proprietary/vendor/lib64/libreference-ril.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_libremosaic_wrapper_64",
     owner: "omix",
     strip: { none: true },
@@ -18278,17 +17749,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_libril_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libril",
-    target: { android: { srcs: ["proprietary/vendor/lib64/libril.so"] } },
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_librilfusion_64",
     owner: "omix",
     strip: { none: true },
@@ -18297,17 +17757,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "librilfusion",
     target: { android: { srcs: ["proprietary/vendor/lib64/librilfusion.so"] } },
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_librilutils_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "librilutils",
-    target: { android: { srcs: ["proprietary/vendor/lib64/librilutils.so"] } },
 }
 
 cc_prebuilt_library_shared {
@@ -18927,30 +18376,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_mediacas_libclearkeycasplugin_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libclearkeycasplugin",
-    target: { android: { srcs: ["proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so"] } },
-    relative_install_path: "mediacas",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_mediadrm_libdrmclearkeyplugin_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libdrmclearkeyplugin",
-    target: { android: { srcs: ["proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so"] } },
-    relative_install_path: "mediadrm",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_mediadrm_libmockdrmcryptoplugin_64",
     owner: "omix",
     strip: { none: true },
@@ -19074,18 +18499,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libaudiopreprocessing_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libaudiopreprocessing",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_soundfx_libaudiopreprocessing_mtk_64",
     owner: "omix",
     strip: { none: true },
@@ -19098,18 +18511,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libbundlewrapper_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libbundlewrapper",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
     name: "x2034_vendor_lib64_soundfx_libdlbvol_64",
     owner: "omix",
     strip: { none: true },
@@ -19118,78 +18519,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "libdlbvol",
     target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libdlbvol.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libdownmix_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libdownmix",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libdownmix.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libdynproc_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libdynproc",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libdynproc.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libeffectproxy_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libeffectproxy",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libeffectproxy.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libhapticgenerator_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libhapticgenerator",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libhapticgenerator.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libldnhncr_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libldnhncr",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libldnhncr.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libreverbwrapper_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libreverbwrapper",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libreverbwrapper.so"] } },
     relative_install_path: "soundfx",
 }
 
@@ -19226,18 +18555,6 @@ cc_prebuilt_library_shared {
     compile_multilib: "64",
     stem: "libswgamedap",
     target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libswgamedap.so"] } },
-    relative_install_path: "soundfx",
-}
-
-cc_prebuilt_library_shared {
-    name: "x2034_vendor_lib64_soundfx_libvisualizer_64",
-    owner: "omix",
-    strip: { none: true },
-    check_elf_files: false,
-    vendor: true,
-    compile_multilib: "64",
-    stem: "libvisualizer",
-    target: { android: { srcs: ["proprietary/vendor/lib64/soundfx/libvisualizer.so"] } },
     relative_install_path: "soundfx",
 }
 
