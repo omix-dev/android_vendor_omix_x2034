@@ -1,18 +1,7 @@
 # Vendors props imported from stock /vendor/build.prop
 PRODUCT_VENDOR_PROPERTIES += ro.vndk.version=33
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.date=Mon Jun 23 18:17:44 CST 2025
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.date.utc=1750673864
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.fingerprint=OMIX/X2034/X2034:15/AP3A.240905.015.A2/1750673864:user/release-keys
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.id=TP1A.220624.014
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.tags=release-keys
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.type=user
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.version.incremental=1750673864
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.version.release=13
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.version.release_or_codename=13
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.version.sdk=33
 PRODUCT_VENDOR_PROPERTIES += persist.sys.dalvik.vm.lib.2=libart.so
 PRODUCT_VENDOR_PROPERTIES += ro.minui.pixel_format=BGRA_8888
-PRODUCT_VENDOR_PROPERTIES += ro.vendor.build.security_patch=2025-05-05
 PRODUCT_VENDOR_PROPERTIES += ro.hwui.use_vulkan=
 PRODUCT_VENDOR_PROPERTIES += ro.virtual_ab.enabled=true
 PRODUCT_VENDOR_PROPERTIES += ro.virtual_ab.compression.enabled=true
